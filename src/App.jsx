@@ -1,9 +1,12 @@
+import { RouterProvider } from 'react-router'
+import './style.css'
+import router from './router/router'
 
 function App() {
 
   return (
   <>
-    <h1>React + Vite</h1>
+    <RouterProvider router={router} />
   </>
   )
 }
